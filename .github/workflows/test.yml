@@ -53,4 +53,13 @@ jobs:
           # if it fails again, the workflow will fail.
           # If it passes the first time the test will not run again
           make test || make test
-
+  retry-on-failure:
+      # Try at most 3 times
+      if: failure() && fromJSON(github.run_attempt) < 3
+      needs: [test]
+      runs-on: ubuntu-latest
+      steps:
+          - env:
+                GH_REPO: ${{ github.repository }}
+                GH_TOKEN: ${{ github.token }}
+            run: gh workflow run .github/workflows/retry-workflow.yml -F run_id=${{ github.run_id }}
