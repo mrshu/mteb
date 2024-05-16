@@ -6,6 +6,8 @@ import traceback
 from datetime import datetime
 from time import time
 
+from codecarbon import EmissionsTracker
+
 import datasets
 
 from .. import __version__
@@ -208,6 +210,13 @@ class MTEB:
             logger.info(f"\n# Loading dataset for {task.description['name']}")
             task.load_data()
 
+    @staticmethod
+    def _run_eval(task, model, split, output_folder, **kwargs):
+        tick = time()
+        results = task.evaluate(model, split, output_folder=output_folder, **kwargs)
+        tock = time()
+        return results, tick, tock
+
     def run(
         self,
         model,
@@ -216,6 +225,7 @@ class MTEB:
         eval_splits=None,
         overwrite_results=False,
         raise_error: bool = True,
+        co2_tracker: bool = False,
         **kwargs
     ):
         """
@@ -275,9 +285,21 @@ class MTEB:
                     "mteb_dataset_name": task.description["name"],
                 }
                 for split in task_eval_splits:
-                    tick = time()
-                    results = task.evaluate(model, split, output_folder=output_folder, **kwargs)
-                    tock = time()
+                    if co2_tracker:
+                        try:
+                            from codecarbon import EmissionsTracker
+                        except ImportError:
+                            raise ImportError(
+                                "To use the CO2 emissions tracker, please install codecarbon using 'pip install codecarbon'"
+                            )
+
+                        with EmissionsTracker(save_to_file=False, save_to_api=False, logging_logger=logger) as tracker:
+                            results, tick, tock = self._run_eval(task, model, split, output_folder, **kwargs)
+
+                        results["co2_emissions"] = tracker.final_emissions  # expressed as kilograms of CO₂-equivalents
+                    else:
+                        results, tick, tock = self._run_eval(task, model, split, output_folder, **kwargs)
+
                     logger.info(f"Evaluation for {task.description['name']} on {split} took {tock - tick:.2f} seconds")
                     results["evaluation_time"] = round(tock - tick, 2)
                     task_results[split] = results

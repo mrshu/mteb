@@ -8,7 +8,6 @@ example call:
        --verbosity 3
 """
 
-
 import argparse
 import logging
 
@@ -65,6 +64,14 @@ def main():
     parser.add_argument("--seed", type=int, default=42, help="Random seed for computation")
     parser.add_argument("--output_folder", type=str, default="results", help="Output directory for results")
     parser.add_argument("-v", "--verbosity", type=int, default=2, help="Verbosity level")
+
+    ### CO2 tracking
+    parser.add_argument(
+        "--co2_tracker",
+        type=bool,
+        default=False,
+        help="Enable CO₂ tracker, disabled by default",
+    )
 
     ## evaluation params
     parser.add_argument(
@@ -125,7 +132,13 @@ def main():
         task_categories=args.task_categories, task_types=args.task_types, task_langs=args.task_langs, tasks=args.tasks
     )
 
-    eval.run(model, verbosity=args.verbosity, output_folder=args.output_folder, eval_splits=args.eval_splits)
+    eval.run(
+        model,
+        verbosity=args.verbosity,
+        output_folder=args.output_folder,
+        eval_splits=args.eval_splits,
+        co2_tracker=args.co2_tracker,
+    )
 
 
 if __name__ == "__main__":
