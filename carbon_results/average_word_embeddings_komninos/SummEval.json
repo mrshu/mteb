@@ -1,0 +1,17 @@
+{
+  "dataset_revision": "cda12ad7615edc362dbf25a00fdd61d3b1eaf93c",
+  "mteb_dataset_name": "SummEval",
+  "mteb_version": "1.2.0",
+  "test": {
+    "co2_emissions": 2.071684282903398e-05,
+    "cos_sim": {
+      "pearson": 0.3111336563092337,
+      "spearman": 0.3052240120239974
+    },
+    "dot": {
+      "pearson": 0.19294343525916083,
+      "spearman": 0.20425795115918524
+    },
+    "evaluation_time": 0.56
+  }
+}

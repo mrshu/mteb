@@ -1,0 +1,12 @@
+{
+  "dataset_revision": "6125ec4e24fa026cec8a478383ee943acfbd5449",
+  "mteb_dataset_name": "TwentyNewsgroupsClustering",
+  "mteb_version": "1.2.0",
+  "test": {
+    "co2_emissions": 0.00015968304092093047,
+    "evaluation_time": 4.49,
+    "main_score": 0.2719816335438141,
+    "v_measure": 0.2719816335438141,
+    "v_measure_std": 0.019089001983155163
+  }
+}

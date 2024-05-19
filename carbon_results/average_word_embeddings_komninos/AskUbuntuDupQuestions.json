@@ -1,0 +1,11 @@
+{
+  "dataset_revision": "2000358ca161889fa9c082cb41daa8dcfb161a54",
+  "mteb_dataset_name": "AskUbuntuDupQuestions",
+  "mteb_version": "1.2.0",
+  "test": {
+    "co2_emissions": 1.0158539038382362e-05,
+    "evaluation_time": 0.27,
+    "map": 0.5087838655262102,
+    "mrr": 0.6448665523457767
+  }
+}

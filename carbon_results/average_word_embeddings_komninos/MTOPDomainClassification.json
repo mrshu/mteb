@@ -1,0 +1,16 @@
+{
+  "dataset_revision": "d80d48c1eb48d3562165c59d59d0034df9fff0bf",
+  "mteb_dataset_name": "MTOPDomainClassification",
+  "mteb_version": "1.2.0",
+  "test": {
+    "co2_emissions": 9.958643266145692e-05,
+    "en": {
+      "accuracy": 0.7937984496124031,
+      "accuracy_stderr": 0.013167245046987977,
+      "f1": 0.7970776168144654,
+      "f1_stderr": 0.01242187766124594,
+      "main_score": 0.7937984496124031
+    },
+    "evaluation_time": 2.8
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "dataset_revision": "65b79d1d13f80053f67aca9498d9402c2d9f1f40",
+  "mteb_dataset_name": "BiorxivClusteringP2P",
+  "mteb_version": "1.2.0",
+  "test": {
+    "co2_emissions": 0.000491726077297811,
+    "evaluation_time": 13.83,
+    "main_score": 0.29936308208154233,
+    "v_measure": 0.29936308208154233,
+    "v_measure_std": 0.007215670938810928
+  }
+}

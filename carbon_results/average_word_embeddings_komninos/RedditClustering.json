@@ -1,0 +1,12 @@
+{
+  "dataset_revision": "24640382cdbf8abc73003fb0fa6d111a705499eb",
+  "mteb_dataset_name": "RedditClustering",
+  "mteb_version": "1.2.0",
+  "test": {
+    "co2_emissions": 0.0008437600504738947,
+    "evaluation_time": 23.77,
+    "main_score": 0.2842671674971486,
+    "v_measure": 0.2842671674971486,
+    "v_measure_std": 0.038448151870575216
+  }
+}
