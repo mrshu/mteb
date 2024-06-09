@@ -1,0 +1,12 @@
+{
+  "dataset_revision": "a122ad7f3f0291bf49cc6f4d32aa80929df69d5d",
+  "mteb_dataset_name": "ArxivClusteringP2P",
+  "mteb_version": "1.2.0",
+  "test": {
+    "co2_emissions": 3.6566242975207515,
+    "evaluation_time": 59292.49,
+    "main_score": 0.42770590003941167,
+    "v_measure": 0.42770590003941167,
+    "v_measure_std": 0.1356497947702255
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_revision": "e8379541af4e31359cca9fbcf4b00f2671dba205",
+  "mteb_dataset_name": "AmazonCounterfactualClassification",
+  "mteb_version": "1.2.0",
+  "test": {
+    "co2_emissions": 0.0014321049156978659,
+    "en": {
+      "accuracy": 0.7704477611940299,
+      "accuracy_stderr": 0.03305085626761092,
+      "ap": 0.3997937533395803,
+      "ap_stderr": 0.0316745894024252,
+      "f1": 0.7088217739545807,
+      "f1_stderr": 0.029128495079761653,
+      "main_score": 0.7704477611940299
+    },
+    "evaluation_time": 26.67
+  }
+}

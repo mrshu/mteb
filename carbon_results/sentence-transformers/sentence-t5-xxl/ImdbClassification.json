@@ -1,0 +1,16 @@
+{
+  "dataset_revision": "3d86128a09e091d6018b6d26cad27f2739fc2db7",
+  "mteb_dataset_name": "ImdbClassification",
+  "mteb_version": "1.2.0",
+  "test": {
+    "accuracy": 0.8944639999999999,
+    "accuracy_stderr": 0.011909783541273951,
+    "ap": 0.8492598602233375,
+    "ap_stderr": 0.016106664003421815,
+    "co2_emissions": 0.12552959443904896,
+    "evaluation_time": 2041.72,
+    "f1": 0.8943051683934529,
+    "f1_stderr": 0.011927700515745054,
+    "main_score": 0.8944639999999999
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "dataset_revision": "6cbc1f7b2bc0622f2e39d2c77fa502909748c259",
+  "mteb_dataset_name": "StackExchangeClustering",
+  "mteb_version": "1.2.0",
+  "test": {
+    "co2_emissions": 0.2363628496613905,
+    "evaluation_time": 3842.87,
+    "main_score": 0.7078238728785838,
+    "v_measure": 0.7078238728785838,
+    "v_measure_std": 0.044873623369982574
+  }
+}
