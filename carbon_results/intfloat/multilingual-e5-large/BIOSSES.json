@@ -1,0 +1,21 @@
+{
+  "dataset_revision": "d3fb88f8f02e40887cd149695127462bbcf29b4a",
+  "mteb_dataset_name": "BIOSSES",
+  "mteb_version": "1.2.0",
+  "test": {
+    "co2_emissions": 2.546605932730538e-05,
+    "cos_sim": {
+      "pearson": 0.8634038842292718,
+      "spearman": 0.8457361381415152
+    },
+    "euclidean": {
+      "pearson": 0.8429460449938606,
+      "spearman": 0.8457361381415152
+    },
+    "evaluation_time": 0.44,
+    "manhattan": {
+      "pearson": 0.8414761398033187,
+      "spearman": 0.8421155737167878
+    }
+  }
+}

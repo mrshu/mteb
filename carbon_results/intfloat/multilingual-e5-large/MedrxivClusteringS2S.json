@@ -1,0 +1,12 @@
+{
+  "dataset_revision": "35191c8c0dca72d8ff3efcd72aa802307d469663",
+  "mteb_dataset_name": "MedrxivClusteringS2S",
+  "mteb_version": "1.2.0",
+  "test": {
+    "co2_emissions": 0.0034533333971485084,
+    "evaluation_time": 65.08,
+    "main_score": 0.2839555518791059,
+    "v_measure": 0.2839555518791059,
+    "v_measure_std": 0.012395630125710775
+  }
+}

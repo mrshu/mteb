@@ -1,0 +1,16 @@
+{
+  "dataset_revision": "e2d317d38cd51312af73b3d32a06d1a08b442046",
+  "mteb_dataset_name": "AmazonPolarityClassification",
+  "mteb_version": "1.2.0",
+  "test": {
+    "accuracy": 0.8765332499999999,
+    "accuracy_stderr": 0.01674294254492022,
+    "ap": 0.8402143580631231,
+    "ap_stderr": 0.017949181020415574,
+    "co2_emissions": 0.09198519264647524,
+    "evaluation_time": 1532.52,
+    "f1": 0.8761225423387018,
+    "f1_stderr": 0.017001988122203927,
+    "main_score": 0.8765332499999999
+  }
+}

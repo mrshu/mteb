@@ -1,0 +1,11 @@
+{
+  "dataset_revision": "e185fbe320c72810689fc5848eb6114e1ef5ec69",
+  "mteb_dataset_name": "StackOverflowDupQuestions",
+  "mteb_version": "1.2.0",
+  "test": {
+    "co2_emissions": 0.003185331487081068,
+    "evaluation_time": 52.69,
+    "map": 0.4855916453984774,
+    "mrr": 0.4922173414820474
+  }
+}

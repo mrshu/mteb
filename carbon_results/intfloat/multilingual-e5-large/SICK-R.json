@@ -1,0 +1,21 @@
+{
+  "dataset_revision": "a6ea5a8cab320b040a23452cc28066d9beae2cee",
+  "mteb_dataset_name": "SICK-R",
+  "mteb_version": "1.2.0",
+  "test": {
+    "co2_emissions": 4.4254869476879004e-06,
+    "cos_sim": {
+      "pearson": 0.8375964122404937,
+      "spearman": 0.8054971735759465
+    },
+    "euclidean": {
+      "pearson": 0.8058491541299203,
+      "spearman": 0.8054972435541043
+    },
+    "evaluation_time": 11.95,
+    "manhattan": {
+      "pearson": 0.8049264283301908,
+      "spearman": 0.8041193200929602
+    }
+  }
+}

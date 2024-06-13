@@ -1,0 +1,16 @@
+{
+  "dataset_revision": "7d571f92784cd94a019292a1f45445077d0ef634",
+  "mteb_dataset_name": "MassiveScenarioClassification",
+  "mteb_version": "1.2.0",
+  "test": {
+    "co2_emissions": 0.0005687471328538219,
+    "en": {
+      "accuracy": 0.7177538668459986,
+      "accuracy_stderr": 0.014483799135815103,
+      "f1": 0.7082154298989746,
+      "f1_stderr": 0.014417377035485849,
+      "main_score": 0.7177538668459986
+    },
+    "evaluation_time": 14.45
+  }
+}

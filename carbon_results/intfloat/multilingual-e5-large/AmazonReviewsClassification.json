@@ -1,0 +1,16 @@
+{
+  "dataset_revision": "1399c76144fd37290681b995c656ef9b2e06e26d",
+  "mteb_dataset_name": "AmazonReviewsClassification",
+  "mteb_version": "1.2.0",
+  "test": {
+    "co2_emissions": 0.0008440635052614975,
+    "en": {
+      "accuracy": 0.46987999999999996,
+      "accuracy_stderr": 0.025465930181322666,
+      "f1": 0.4542376554296432,
+      "f1_stderr": 0.02429070334950092,
+      "main_score": 0.46987999999999996
+    },
+    "evaluation_time": 16.18
+  }
+}

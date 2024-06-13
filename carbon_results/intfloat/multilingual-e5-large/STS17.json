@@ -1,0 +1,23 @@
+{
+  "dataset_revision": "af5e6fb845001ecf41f4c1e033ce921939a2a68d",
+  "mteb_dataset_name": "STS17",
+  "mteb_version": "1.2.0",
+  "test": {
+    "co2_emissions": 1.9120320244319605e-05,
+    "en-en": {
+      "cos_sim": {
+        "pearson": 0.895809294024205,
+        "spearman": 0.8926802665934443
+      },
+      "euclidean": {
+        "pearson": 0.8947100399802987,
+        "spearman": 0.8926802665934443
+      },
+      "manhattan": {
+        "pearson": 0.8944685460479268,
+        "spearman": 0.8914655734920508
+      }
+    },
+    "evaluation_time": 0.34
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "dataset_revision": "59042f120c80e8afa9cdbb224f67076cec0fc9a7",
+  "mteb_dataset_name": "MindSmallReranking",
+  "mteb_version": "1.2.0",
+  "test": {
+    "co2_emissions": 0.18960509419660226,
+    "evaluation_time": 3142.46,
+    "map": 0.3092112854690007,
+    "mrr": 0.31948437423782095
+  }
+}

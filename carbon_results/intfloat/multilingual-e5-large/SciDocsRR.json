@@ -1,0 +1,11 @@
+{
+  "dataset_revision": "d3c5e1fc0b855ab6097bf1cda04dd73947d7caab",
+  "mteb_dataset_name": "SciDocsRR",
+  "mteb_version": "1.2.0",
+  "test": {
+    "co2_emissions": 0.005503672660858235,
+    "evaluation_time": 90.81,
+    "map": 0.8150764243179773,
+    "mrr": 0.9483929469223588
+  }
+}
